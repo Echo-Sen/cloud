@@ -11,13 +11,13 @@
       <form id="form-lost-item" enctype="multipart/form-data">
         <section class="form-main">
           <div class="item">
-            <label for="name" class="label-text">物品名称：</label>
+            <label for="name" class="label-text">联系方式：</label>
             <input
               type="text"
               id="name"
               name="name"
-              placeholder="请输入物品名称"
-              v-model="formMess.name"
+              placeholder="请输入您的学号"
+              v-model="formMess.userId"
             />
           </div>
           <div class="item">
@@ -77,9 +77,13 @@ export default {
   data() {
     return {
       formMess: {
-        name: '',
+        // 学号
+        userId: '',
+        // 地点
         place: '',
+        // 物品描述
         msgs: '',
+        // 物品照片
         imgs: '',
       },
     }
@@ -136,8 +140,8 @@ export default {
       if (this.formMess.msgs.trim() === '' || this.formMess.msgs.length === 0) {
         alert('物品描述不能为空！')
       } else if (
-        this.formMess.name.trim() === '' ||
-        this.formMess.name.length === 0
+        this.formMess.userId.trim() === '' ||
+        this.formMess.userId.length === 0
       ) {
         alert('物品名称不能为空!')
       } else if (
