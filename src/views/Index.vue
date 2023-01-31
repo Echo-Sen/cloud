@@ -2,18 +2,20 @@
   <div>
     <div class="showcase">
       <div class="video-container">
-        <!-- <video src="/resources/video.mov" autoplay muted loop></video> -->
+        <video autoplay muted loop>
+          <source src="@/assets/img/video.mp4" type="video/mp4" />
+        </video>
       </div>
       <div class="content">
         <h1>智能志愿服务</h1>
         <h1>云平台</h1>
         <h3>奉献青春力量 弘扬志愿精神</h3>
-        <a href="/#/home" class="btn" id="login">进入平台</a>
+        <router-link to="/home" class="btn" id="login">进入平台</router-link>
       </div>
     </div>
     <div id="about">
       <h1>关于我们</h1>
-      <img src="../assets/img/logo.png" width="80" height="60" />
+      <img src="@/assets/img/logo.png" width="80" height="60" />
       <p></p>
       <h5>人工智能学院小红帽常青藤青年志愿者服务队</h5>
 
@@ -27,8 +29,11 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    this.$store.dispatch('getToken')
+  },
+}
 </script>
 
-<style scoped src="../../public/static/style/style.css">
-</style>
+<style scoped src="@/assets/static/style/style.css"></style>

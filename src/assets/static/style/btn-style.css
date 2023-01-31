@@ -1,0 +1,185 @@
+/* 
+	主界面样式设置
+*/
+
+/* 样式设置 */
+.services {
+	margin-top: 60px;
+	border-radius: 25%;
+}
+
+.services a:hover{
+	text-decoration: none;
+}
+
+.services .service-item {
+	background: rgba(0, 0, 0,0.5);
+	border: 5px solid rgb(145, 160, 160);
+	color: #fff;
+	padding: 60px 30px 20px 30px;
+	text-align: center;
+	transition: all 0.5s;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 25px;
+}
+
+.service-item h4 {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.service-item .service-icon {
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	text-align: center;
+}
+
+.first-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-01.1.png);
+}
+
+.second-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-02.png);
+}
+
+.third-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-03.png);
+}
+
+.fourth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-04.png);
+}
+
+.fifth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-05.png);
+}
+
+.sixth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-06.png);
+}
+
+.seventh-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-07.png);
+}
+
+.eighth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-08.png);
+}
+
+.ninth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-09.png);
+}
+
+.tenth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-10.png);
+}
+
+.eleventh-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-11.png);
+}
+
+.twelfth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-12.png);
+}
+
+.thirteenth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-13.png);
+}
+
+.fourteenth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-14.png);
+}
+
+.fifteenth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-15.png);
+}
+
+.sixteenth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-16.png);
+}
+
+.seventeenth-service .service-icon {
+	background-image: url(@/assets/icon/service-icon-17.png);
+}
+
+.service-item:hover {
+	color: #121212;
+	background-color: #ffe165;
+}
+
+.first-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-01.1.png);
+}
+
+.second-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-02.2.png);
+}
+
+
+.third-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-03.3.png);
+}
+
+.fourth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-04.4.png);
+}
+
+.fifth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-05.5.png);
+}
+
+.sixth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-06.6.png);
+}
+
+.seventh-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-07.7.png);
+}
+
+.eighth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-08.8.png);
+}
+
+.ninth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-09.9.png);
+}
+
+.tenth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-10.10.png);
+}
+
+.eleventh-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-11.11.png);
+}
+
+.twelfth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-12.12.png);
+}
+
+.thirteenth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-13.13.png);
+}
+
+.fourteenth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-14.14.png);
+}
+
+.fifteenth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-15.15.png);
+}
+
+.sixteenth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-16.16.png);
+}
+
+.seventeenth-service:hover .service-icon {
+	background-image: url(@/assets/icon/service-icon-17.17.png);
+}

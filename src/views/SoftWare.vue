@@ -4,7 +4,7 @@
       <div class="log">
         <h4>
           ctq
-          <a href="mainplatform.html">
+          <a href="javascript:void(0)">
             <img src="../assets/icon/会徽.png" alt="logo" />
           </a>
         </h4>
@@ -148,6 +148,6 @@ export default {
   },
 }
 </script>
-<style scoped src="../../public/static/style/reset.css"></style>
+<style scoped src="@/assets/static/style/reset.css"></style>
 
-<style scoped src="../../public/static/style/ctq_common.css"></style>
+<style scoped src="@/assets/static/style/ctq_common.css"></style>

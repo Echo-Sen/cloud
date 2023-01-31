@@ -1,19 +1,19 @@
 import VueRouter from 'vue-router'
 import Vue from 'vue'
 import Index from '@/views/Index.vue'
-import MainPlatform from '@/views/MainPlatform.vue'
-import CqtUmbrella from '@/views/CqtUmbrella'
-import CqtUmbrellaBorrow from '@/views/CqtUmbrellaBorrow'
-import CqtUmbrellaReturn from '@/views/CqtUmbrellaReturn'
-import CqtHelper from '@/views//CqtHelper'
-import FindAndLost from '@/views/FindAndLost'
-import ToFindFindAndLost from '@/views/ToFindFindAndLost'
-import TolostFindAndLost from '@/views/TolostFindAndLost'
+import MainPlatform from '@/views/Home/MainPlatform.vue'
+import CqtUmbrella from '@/views/LoveUmbrella/CqtUmbrella'
+import CqtUmbrellaBorrow from '@/views/LoveUmbrella/CqtUmbrellaBorrow'
+import CqtUmbrellaReturn from '@/views/LoveUmbrella/CqtUmbrellaReturn'
+import CqtHelper from '@/views/SchoolHelper/CqtHelper'
+import FindAndLost from '@/views/LostAndFind/FindAndLost'
+import ToFindFindAndLost from '@/views/LostAndFind/ToFindFindAndLost'
+import TolostFindAndLost from '@/views/LostAndFind/TolostFindAndLost'
 import SoftWare from '@/views/SoftWare'
-import Volunteer from '@/views/Volunteer'
-import JoinVolunter from '@/views/JoinVolunter'
-import ShineVolunteer from '@/views/ShineVolunteer'
-
+import Volunteer from '@/views/Volunteer/Volunteer'
+import JoinVolunteer from '@/views/Volunteer/JoinVolunteer'
+import ShineVolunteer from '@/views/Volunteer/ShineVolunteer'
+import Advice from '@/views/Advice/AdviceBack'
 Vue.use(VueRouter)
 
 const routes = [
@@ -67,11 +67,14 @@ const routes = [
   },
   {
     path: '/joinvolunter',
-    component:JoinVolunter
+    component:JoinVolunteer
   },
   {
     path: '/shinevolunteer',
     component:ShineVolunteer
+  }, {
+    path: '/advice',
+    component:Advice
   }
 ]
 
